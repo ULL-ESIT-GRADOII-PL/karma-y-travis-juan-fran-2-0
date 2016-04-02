@@ -1,4 +1,4 @@
-Practica: Karma y Travis.
+Practica: Karma y Travis. [![Build Status](https://travis-ci.org/alu0100502923/karma-y-travis-juan-fran-2-0.svg?branch=master)](https://travis-ci.org/alu0100502923/karma-y-travis-juan-fran-2-0)
 ==
 
 Partiendo de la practica anterior de [mocha y chai](https://github.com/ULL-ESIT-GRADOII-PL/eliminacion-del-switch-juan-fran-2-0/), añadir  la ejecución de las pruebas con Karma y Travis.
