@@ -18,7 +18,7 @@ module.exports = function(config) {
       'assets/js/xregexp-all.js',
       'assets/js/medida.js',
       'assets/js/*.js',
-      'assets/tests/*.js'
+      'assets/testjs/*.js'
     ],
 
 
