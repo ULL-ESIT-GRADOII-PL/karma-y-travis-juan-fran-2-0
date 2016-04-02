@@ -23,3 +23,12 @@ gulp.task('minify', function () {
 gulp.task('clean', function(cb) {
   del(['minified/*'], cb);
 });
+
+gulp.task('tests', function(done) {
+  return karma.start({
+    configFile: __dirname + '/karma.conf.js',
+    singleRun: true
+  }, done);
+});
+
+gulp.task('default', ['tests']);
